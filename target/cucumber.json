@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-31T21:51:40.134Z",
+        "line": 4,
+        "name": "get the info from UI",
+        "description": "",
+        "id": "verify-the-info-from-all-environment;get-the-info-from-ui",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user logs in with \"\" and \"\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user navigates to mySelf page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user gets UI info",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the info from all environment",
+    "description": "",
+    "id": "verify-the-info-from-all-environment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/threePoint.feature",
+    "tags": []
+  }
+]
